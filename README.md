@@ -41,6 +41,7 @@ Token bucket algorithm is implemented for rate limiting.
 - If no tokens left, request is met with an error message.
 
 PROS: simple, easy to maintain, works like a charm, somewhat scalable.
+
 CONS: No memory of overflow request (the user has to re-request), limit is strict (no dynamic adjustments).
 
 IMPROVEMENTS:
