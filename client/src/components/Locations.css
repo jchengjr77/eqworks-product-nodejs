@@ -1,0 +1,49 @@
+.title {
+  font-size: xxx-large;
+  font-weight: 200;
+}
+
+.credit {
+  font-size: small;
+  font-weight: 300;
+  display: flex;
+}
+
+.app-head {
+  padding: 1rem;
+}
+
+.Body {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  display: flex;
+}
+
+.plain-list {
+  list-style: none;
+  padding: 0;
+  margin: auto;
+  font-size: small;
+}
+
+.plain-list-item {
+  float: left;
+  display: list-item;
+}
+
+.table-cell {
+  float: center;
+  padding: 1rem;
+}
+
+.logo {
+  float: left;
+  height: 10rem;
+  width: auto;
+}
+
+h2 {
+  display: flex;
+}

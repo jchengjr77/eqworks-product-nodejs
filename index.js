@@ -15,8 +15,8 @@ const date = new Date();
  */
 var bucket = {
   capacity: 100 /** Max number of tokens in bucket */,
-  amount: 0 /** Current number of tokens in bucket */,
-  interval: 10000 /** Number of ms between token refills */,
+  amount: 100 /** Current number of tokens in bucket */,
+  interval: 1000 /** Number of ms between token refills */,
   last_fill: date.getTime() /** Time of last bucket refill */,
   refill_amt: 10 /** Amount of tokens added per refill */
 };
@@ -68,7 +68,6 @@ const queryHandler = (req, res, next) => {
 };
 
 app.get("/", (req, res) => {
-  console.log("Hello World!");
   res.send("Welcome to EQ Works 😎");
 });
 
