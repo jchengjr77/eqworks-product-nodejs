@@ -6,6 +6,8 @@ This is the React UI for the sample product development problem.
 
 "Implement a user interface with React.js that uses the API endpoints to provide data visualizations including one or more types of charts, a data table using this Semantic UI example as a starting point, and a map-based geo-visualization."
 
+Table uses information about points of interest.
+
 ---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

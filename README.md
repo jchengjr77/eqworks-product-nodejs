@@ -32,6 +32,10 @@ Make sure any additional Node.js level dependencies are properly added in `packa
 
 ---
 
+### Backend Notes (express)
+
+For information on frontend implementation, please explore ./client
+
 #### API rate limiting notes
 
 Token bucket algorithm is implemented for rate limiting.
