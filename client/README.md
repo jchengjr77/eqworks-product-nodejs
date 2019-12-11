@@ -1,3 +1,13 @@
+## React UI for EQWorks
+
+#### by jchengjr77
+
+Build using thrree main components:
+
+- Locations: Displays a table of points of interest
+- Daily Events: A bar-chart describing the relationship between different days and the number of events per day
+- Hourly Clicks: A line-chart aggregating the average number of clicks per hour of the day. It can be observed that early hours (in the morning) accumulate far less clicks than regular working hours.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
