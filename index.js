@@ -64,7 +64,6 @@ const queryHandler = (req, res, next) => {
       ERROR: Too many requests. Please try again later.
     `);
   }
-  // print_bucket(); // For testing purposes
 };
 
 app.get("/", (req, res) => {

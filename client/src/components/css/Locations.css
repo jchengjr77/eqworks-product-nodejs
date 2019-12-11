@@ -21,27 +21,14 @@
   display: flex;
 }
 
-.plain-list {
-  list-style: none;
-  padding: 0;
-  margin: auto;
-  font-size: small;
-}
-
-.plain-list-item {
-  float: left;
-  display: list-item;
+.component {
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .table-cell {
   float: center;
   padding: 1rem;
-}
-
-.logo {
-  float: left;
-  height: 10rem;
-  width: auto;
 }
 
 h2 {

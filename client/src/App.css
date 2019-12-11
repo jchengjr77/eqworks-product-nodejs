@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+/* Added by jchengjr77 */
+.logo {
+  float: left;
+  height: 10rem;
+  width: auto;
+  animation: App-logo-spin infinite 20s linear;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

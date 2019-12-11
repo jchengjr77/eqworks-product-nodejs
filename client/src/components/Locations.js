@@ -3,7 +3,7 @@
 
 import React, { Component } from "react";
 import { Table } from "semantic-ui-react";
-import "./Locations.css";
+import "./css/Locations.css";
 
 class Locations extends Component {
   constructor() {
@@ -25,7 +25,7 @@ class Locations extends Component {
 
   render() {
     return (
-      <div className="Locations">
+      <div id="Locations" className="component">
         <h2>Locations</h2>
         <Table celled className="table">
           <Table.Header>
@@ -38,7 +38,7 @@ class Locations extends Component {
 
           <Table.Body>
             {this.state.locations.map(place => (
-              <Table.Row>
+              <Table.Row key={place.name}>
                 <Table.Cell className="table-cell">{place.poi_id}</Table.Cell>
                 <Table.Cell className="table-cell">{place.name}</Table.Cell>
                 <Table.Cell className="table-cell">
